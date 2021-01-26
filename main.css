@@ -1,0 +1,68 @@
+.myNavStyle {
+    background-color: rgb(194, 144, 153)
+}
+
+.navBurger {
+    border: solid rgb(108, 138, 156) 2px;
+}
+
+.navName {
+    color: beige;
+    font-family: 'Overpass', sans-serif;
+}
+
+.navLinkFont {
+    font-family: 'Overpass', sans-serif;
+    color: beige;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background-color: rgb(108, 138, 156);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.cardImage {
+    float: right;
+}
+
+.cardStyle {
+    font-family: 'Overpass', sans-serif;
+}
+
+.jumbostyle {
+    font-family: 'Overpass', sans-serif;
+    background-color: rgb(194, 144, 153);
+    color: beige;
+}
+
+.footerstyle {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    background-color: rgb(194, 144, 153);
+    color: beige;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align: center;
+}
+
+.linkfont {
+    font-family: 'Overpass', sans-serif;
+}
+
+.cardposition {
+    margin-bottom: 50px;
+}
+
